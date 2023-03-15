@@ -1,0 +1,7 @@
+CREATE DATABASE teste1;
+CREATE TABLE User (
+    ID int NOT NULL AUTO_INCREMENT,
+    Nome varchar(255),
+	Pass varchar(255),
+	PRIMARY KEY (ID)
+);
